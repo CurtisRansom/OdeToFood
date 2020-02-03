@@ -26,7 +26,7 @@ namespace OdeToFood.Data.Migrations
 
                     b.Property<int>("Cuisine");
 
-                    b.Property<string>("Locaiton")
+                    b.Property<string>("Location")
                         .IsRequired()
                         .HasMaxLength(255);
 

@@ -45,7 +45,10 @@
         @RenderBody()
         <hr />
         <footer>
+            <vc:restaurant-count></vc:restaurant-count>
+            <img src="~/OdeToFood.png" />
             <p>&copy; 2020 - OdeToFood</p>
+            @RenderSection("footer", required: false)
         </footer>
     </div>
 
